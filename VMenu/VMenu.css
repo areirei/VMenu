@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 12px;
+}
+
+.v_pre {
+    width: 304px;
+    height: 650px;
+    background: url(iPhone4.png) no-repeat;
+}
+
+.v_pre_hd {
+    height: 125px;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.v_pre_hd .title {
+    display: inline-block;
+    font-weight: 400;
+    padding-top: 100px;
+    width: 122px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+    font-size: 12px;
+    color: #fff;
+}
+
+.v_pre_bd {
+    position: relative;
+    height: 388px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.v_pre_ft {
+    height: 152px;
+}
+
+.pre_menu_list {
+    margin-left: 55px;
+    margin-right: 20px;
+    display: -webkit-flex;
+}
+
+.pre_menu_item {
+    position: relative;
+    line-height: 38px;
+    text-align: center;
+    display: block;
+    -ms-flex: 1;
+    -webkit-flex: 1;
+    box-flex: 1;
+    -ms-box-flex: 1;
+    -webkit-box-flex: 1;
+}
+
+.pre_menu_item a {
+    display: block;
+    width: auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+    color: #616161;
+    text-decoration: none;
+}
+
+.pre_menu_item .icon_menu_dot {
+    background: url(../images/v.png) 0 0 no-repeat;
+    width: 7px;
+    height: 7px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 2px;
+    margin-top: -2px;
+}
+
+.sub_pre_menu_box {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    width: 100%;
+    border: 1px solid #d0d0d0;
+    background-color: #fff;
+    max-width: 66px;
+    margin-left: -33px;
+}
+
+.no-margin {
+    margin: 0!important;
+}
+
+.sub_pre_menu_list{
+    list-style: none;
+}
+
+.sub_pre_menu_box .arrow_out {
+    bottom: -6px;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-width: 6px;
+    border-style: dashed;
+    border-color: transparent;
+    border-bottom-width: 0;
+    border-top-color: #d0d0d0;
+    border-top-style: solid;
+}
+
+.sub_pre_menu_box .arrow_in {
+    bottom: -5px;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-width: 6px;
+    border-style: dashed;
+    border-color: transparent;
+    border-bottom-width: 0;
+    border-top-color: #fafafa;
+    border-top-style: solid;
+}
+
+.sub_pre_menu_box .arrow {
+    position: absolute;
+    left: 50%;
+    margin-left: -6px;
+}
+
+.pre_menu_link {
+    border-left: 1px solid #e7e7eb;
+}
